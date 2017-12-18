@@ -1,0 +1,9 @@
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\bin\Debug\netcoreapp2.0\AstralNew.DAL.deps.json
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\bin\Debug\netcoreapp2.0\AstralNew.DAL.dll
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\bin\Debug\netcoreapp2.0\AstralNew.DAL.pdb
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.csproj.CoreCompileInputs.cache
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.AssemblyInfoInputs.cache
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.AssemblyInfo.cs
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.dll
+c:\users\user\documents\visual studio 2017\Projects\AstralNew\AstralNew.DAL\obj\Debug\netcoreapp2.0\AstralNew.DAL.pdb

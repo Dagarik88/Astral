@@ -1,0 +1,50 @@
+﻿@using AstralNew.DAL.Models
+@model VacancyViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<form method="post">
+    <div class="row">
+        <div class="col-sm-11">
+            @Html.TextBoxFor(m => m.Search, new { @class = "form-control input-lg" })
+        </div>
+        <div class="col-sm-1">
+            <input type="submit" class="form-control input-lg" value="Go" />
+        </div>
+
+        <div class="col-sm-12"><br /><hr /></div>
+    </div>
+</form>
+@if (Model.Vacancies.Any())
+{
+    foreach (var item in Model.Vacancies)
+    {
+        string solary = String.Empty;
+        solary += item.SalaryFrom.HasValue ? item.SalaryFrom.Value.ToString() : solary;
+        solary += item.SalaryFrom.HasValue && item.SalaryTo.HasValue ? " - " : "";
+        solary += item.SalaryTo.HasValue ? item.SalaryTo.Value.ToString() : "";
+        solary += !String.IsNullOrEmpty(item.Currency) ? " " + item.Currency : "";
+        <h3>@item.Name<br /><small>@item.Employer</small></h3>
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="text-success">@solary</p>
+                <div class="row">
+                    <div class="col-sm-12">
+                        @item.Requirement<br />
+                        @item.Responsibility
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12"><hr /></div>
+
+        </div>
+    }
+}
+else
+{
+    <div class="row">
+        <div class="col-sm-12">
+            <h2>Поиск не дал результатов :(</h2>
+        </div>
+    </div>
+}
